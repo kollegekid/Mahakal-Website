@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("mahakal.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+	float: left;
+	margin-top: 5px;
+	background-color: black;
+	width: 1200px;
+	height: 45px;
+}
+ul li{
+		display: inline-block;
+		margin-top: 13px;
+}
+ul li a{
+
+	margin-left: 10px;
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid orange;
+	color: white;
+	transition: 0.5s ease;
+}
+ul li a:hover{
+	background-color: orangered;
+	opacity: 70%;
+	color: black;
+	cursor: pointer;
+	border-color: whitesmoke;
+}
+ul li.active a{
+	color: black;
+	background-color: orangered;
+
+}
+.imgg img{
+	left: 1050px;
+	width: 100px;
+	height: auto;
+	position: absolute;
+	top: 30px;
+	margin-right: 25px;
+	margin-top: 25px;
+
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.heading{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	color: white ;
+
+}
+#video {
+	position: absolute;
+	top: 35%;
+	margin-left: 10px;
+}
+#video video{
+	height: 200px;
+	width: 250px;
+	opacity: 90%;
+	border: 1px solid slategray;
+}
+p{
+	position: absolute;
+	top: 90%;
+	left: 82%;
+	font-size: 15px;
+	color: whitesmoke;
+	height:auto;
+	width: auto;
+	border: 1px solid slategrey;
+	padding: 9px;
+}
+p:hover{
+	background-color: darkgrey;
+	border-color: orangered;
+	color: black;
+}
